@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 ERROR</title>
+	<style>
+		html {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+		}
+		body{
+			background-color: #000033;
+		}
+	
+	
+		
+		img{
+			
+			position: absolute;
+			top:30%;
+			left:4%;
+			border-radius: 2px;
+		}
+		#text{
+			position: absolute;
+			color: #f1f1f1;
+			top: 30%;
+			left:35%;
+			font-family:nbstyle;
+			font-size:250%;
+		}
+		p{
+			font-size: 300%;
+		}
+		@font-face {
+  		 font-family: nbstyle;
+  		 src: url(Geometry_Soft_Pro-Bold_N.otf);
+		}
+		#logo{
+			position: absolute;
+			top: 0;
+			left:75%;
+		}
+		.button{
+			 background-color:#330033; 
+    		 border: none;
+             color: white;
+             padding: 16px 32px;
+		     text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		}
+		#tech{
+			position: absolute;
+			top: 90%;
+			left: 2%;
+		}
+		#kanvas{
+			position: absolute;
+			top:90%;
+			right: 2%;
+		}
+		@media only screen 
+  		and (min-device-width: 375px) 
+  		and (max-device-width: 667px) 
+  		and (-webkit-min-device-pixel-ratio: 2) { 
+
+  			html{
+  				overflow: hidden;
+  			}
+			#logo{
+			position: absolute;
+			top: 0;
+			left:70%;
+
+			}
+			img{
+				
+				
+			}
+			#text{
+				left:37%;
+				font-size: 150%;
+				}
+			p{
+				font-size: 200%;
+
+			}
+
+		}
+			
+			
+		
+        </style>
+	
+</head>
+<body >
+	<div id = "container">
+		<div id ="text">
+		NO HUMANS ARE HERE<BR>
+		YOU HAVE LANDED ON THE WRONG PLANET!!<BR>
+		<p> 404 ERROR</p>
+		</div>
+		<a href="http://techspardha.org/">
+			<img id ="logo" src ="type1.png" height="70" width="300">
+			<img src="ast.png" height="300" width="400">
+		</a>
+		<form>
+		<input class= "button"  id = "tech" type="button" value="Return to Homepage" onclick="window.location.href='http://techspardha.org/'" />
+		<input class= "button" id ="kanvas" type="button" value="Return to Kanvas" onclick="window.location.href='http://techspardha.org/kanvas/'" />
+		</form>
+		
+	</div>
+</body>
+</html>
